@@ -15,8 +15,8 @@ function UserIntro() {
                 <div className='row'>
                     <div className='col-md-6 col-12'>
                         <div className='left'>
-                            <div className='text-center'>
-                                <h4 >HI Rahul Sharma Welcome Back </h4>
+                            <div className=''>
+                                <h4 >HI Rahul Sharma Welcome Back ! </h4>
                                 <span >Dashboard <span><MdOutlineKeyboardArrowRight /></span> Dashboard</span>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ function UserIntro() {
                                 </div>
                             </div>
                             <div class="ml-3 mt-2">
-                               <div className='px-3'> <span class="sparkline_bar"><img src={graph1} alt='graph'/></span></div>
+                               <div className='px-4'> <span class="sparkline_bar"><img src={graph1} alt='graph'/></span></div>
                             </div>
                             <div className='right'>
                                 <div className='content'>
@@ -43,7 +43,7 @@ function UserIntro() {
                                 </div>
                             </div>
                             <div class="ml-3 mt-2">
-                               <div className='px-3'> <span class="sparkline_bar"><img src={graph1} alt='graph'/></span></div>
+                               <div className='px-4'> <span class="sparkline_bar"><img src={graph1} alt='graph'/></span></div>
                             </div>
                             <div className='right'>
                                 <div className='content'>
@@ -54,7 +54,7 @@ function UserIntro() {
                                 </div>
                             </div>
                             <div class="ml-3 mt-2">
-                               <div className='px-3'> <span class="sparkline_bar"><img src={graph1} alt='graph'/></span></div>
+                               <div className='px-4'> <span class="sparkline_bar"><img src={graph1} alt='graph'/></span></div>
                             </div>
                         </div>
 

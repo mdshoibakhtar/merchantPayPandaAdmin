@@ -29,10 +29,10 @@ function TopHeader() {
                             </div>
                             <div className='px-2'>
                                 <span className='notification' >
-                                    <GiRingingBell />
                                     <span className='pulse'>
                                         <div class="circle pulse green"></div>
                                     </span>
+                                    <GiRingingBell />
                                 </span>
                             </div>
                             <div className='px-2'><span className='profile bg-light p-2 rounded-circle'>
