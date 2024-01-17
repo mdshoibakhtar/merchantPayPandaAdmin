@@ -18,7 +18,7 @@ function TopHeader() {
             <Container>
                 <div className='d-flex justify-content-between align-items-center p-2'>
                     <div className='left'>
-                        <Link>
+                        <Link to={"/"}>
                             <img src={logo} alt='logo' width={100} />
                         </Link>
                     </div>
