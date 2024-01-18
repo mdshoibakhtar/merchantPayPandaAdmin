@@ -10,6 +10,10 @@ import NotWorkingUserPage from './pages/notWorkingUser';
 import Footer from './common/footer/Footer';
 import Dashboardpage from './pages/dashboard';
 import AlltransportationReportsPage from './pages/alltransportationReports';
+import PanCardReportPages from './pages/panCardReport';
+import PendingTransactionReport from './components/reportMaster/pendingTransactionReport/PendingTransactionReport';
+import OperatorWiseSalePage from './pages/operatorWiseSale';
+import LedgerReportPage from './pages/LedgerReport';
 import BalanceTransferPage from './pages/balanceTransfer';
 import BalanceReturnRequestPage from './pages/balanceReturnRequest';
 import PaymentRequestViewPage from './pages/paymentRequestView';
@@ -34,6 +38,10 @@ function App() {
         <Route path="suspended-users" element={<SuspendedUserPage />} />
         <Route path="not-working-users" element={<NotWorkingUserPage />} />
         <Route path="all-transactions-report" element={< AlltransportationReportsPage />} />
+        <Route path="pancard-report" element={< PanCardReportPages/>} />
+        <Route path="pending-transaction-report" element={< PendingTransactionReport/>} />
+        <Route path="operator-wise-sale" element={<OperatorWiseSalePage />} />
+        <Route path="ledger-report" element={<LedgerReportPage />} />
         <Route path="balance-trasnfer" element={< BalanceTransferPage />} />
         <Route path="balance-return-request" element={<BalanceReturnRequestPage />} />
         <Route path="payment-request-view" element={<PaymentRequestViewPage />} />

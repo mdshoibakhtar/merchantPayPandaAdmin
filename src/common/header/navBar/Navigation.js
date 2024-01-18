@@ -48,7 +48,8 @@ function Navigation() {
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Pancard Report</Link>
+                  <Link to={"/pancard-report"}> Pending Report
+                  </Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
@@ -57,15 +58,15 @@ function Navigation() {
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Pending Transaction </Link>
+                  <Link to={"/pending-transaction-report"}>Pending Transaction </Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Operator Wise Sale </Link>
+                  <Link to={"/operator-wise-sale"}>Operator Wise Sale </Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Ledger Report </Link>
+                  <Link to={"/ledger-report"}> Ledger Report </Link>
                 </li>
                 <li className='menus-items sub-dropdown-list'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
