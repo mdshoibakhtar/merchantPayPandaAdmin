@@ -10,6 +10,10 @@ import NotWorkingUserPage from './pages/notWorkingUser';
 import Footer from './common/footer/Footer';
 import Dashboardpage from './pages/dashboard';
 import AlltransportationReportsPage from './pages/alltransportationReports';
+import PanCardReportPages from './pages/panCardReport';
+import PendingTransactionReport from './components/reportMaster/pendingTransactionReport/PendingTransactionReport';
+import OperatorWiseSalePage from './pages/operatorWiseSale';
+import LedgerReportPage from './pages/LedgerReport';
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
         <Route path="suspended-users" element={<SuspendedUserPage />} />
         <Route path="not-working-users" element={<NotWorkingUserPage />} />
         <Route path="all-transactions-report" element={< AlltransportationReportsPage/>} />
+        <Route path="pancard-report" element={< PanCardReportPages/>} />
+        <Route path="pending-transaction-report" element={< PendingTransactionReport/>} />
+        <Route path="operator-wise-sale" element={<OperatorWiseSalePage />} />
+        <Route path="ledger-report" element={<LedgerReportPage />} />
       </Routes>
       <Footer/>
     </>

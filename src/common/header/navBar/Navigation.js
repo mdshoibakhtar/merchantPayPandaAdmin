@@ -48,7 +48,8 @@ function Navigation() {
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Pancard Report</Link>
+                  <Link to={"/pancard-report"}> Pending Report
+                  </Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
@@ -57,15 +58,15 @@ function Navigation() {
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Pending Transaction </Link>
+                  <Link to={"/pending-transaction-report"}>Pending Transaction </Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Operator Wise Sale </Link>
+                  <Link to={"/operator-wise-sale"}>Operator Wise Sale </Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Ledger Report </Link>
+                  <Link to={"/ledger-report"}> Ledger Report </Link>
                 </li>
                 <li className='menus-items sub-dropdown-list'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
@@ -85,7 +86,7 @@ function Navigation() {
               </ul>
             </li>
             <li className='nav-item'><span className='nav-icon px-2'><FaUsers /></span><Link>Payment <span className='px-2'><IoChevronDownSharp /></span></Link>
-            <ul class="dropdown-content px-3">
+              <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
                   <Link to={""}>Balance Transfer</Link>
@@ -106,7 +107,7 @@ function Navigation() {
               </ul>
             </li>
             <li className='nav-item'><span className='nav-icon px-2'><FaUsers /></span><Link>Dispute <span className='px-2'><IoChevronDownSharp /></span></Link>
-            <ul class="dropdown-content px-3">
+              <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
                   <Link to={""}>Pending Dispute</Link>
@@ -118,7 +119,7 @@ function Navigation() {
               </ul>
             </li>
             <li className='nav-item'><span className='nav-icon px-2'><FaUsers /></span><Link>User Income  <span className='px-2'><IoChevronDownSharp /></span></Link>
-            <ul class="dropdown-content px-3">
+              <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
                   <Link to={""}> Distributor Income</Link>
