@@ -1,5 +1,10 @@
+import { useState } from "react";
+import PaymentRequestViewDownload from "./paymentRequestViewDownload/PaymentRequestViewDownload"
 
 function PaymentRequestViewForm() {
+    const [modalShow, setModalShow] = useState(false);
+
+
     return (
         <>
             <div className="col-lg-12 col-md-12">
@@ -32,7 +37,7 @@ function PaymentRequestViewForm() {
                                 </div>
                                 <div className="col-sm-3 mg-sm-t-25 mt-4">
                                     <button className="btn btn-primary pd-x-20 me-2  me-2-2" type="button" fdprocessedid="4y92n"><i className="fas fa-search" /> Search</button>
-                                    <button className="btn btn-danger pd-x-20 me-2-2" type="button" data-toggle="modal" data-target="#transaction_download_model" fdprocessedid="ducors"><i className="fas fa-download" /> Download</button>
+                                    <button className="btn btn-danger pd-x-20 me-2-2" type="button" onClick={() => setModalShow(true)}> <i className="fas fa-download" /> Download</button>
                                 </div>
 
                             </div>
@@ -41,8 +46,10 @@ function PaymentRequestViewForm() {
 
 
                     </div>
-                </div>
-            </div>
+                </div >
+                <PaymentRequestViewDownload show={modalShow}
+                    onHide={() => setModalShow(false)} />
+            </div >
         </>
     )
 }
