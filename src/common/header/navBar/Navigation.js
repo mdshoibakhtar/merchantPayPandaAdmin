@@ -85,51 +85,51 @@ function Navigation() {
               </ul>
             </li>
             <li className='nav-item'><span className='nav-icon px-2'><FaUsers /></span><Link>Payment <span className='px-2'><IoChevronDownSharp /></span></Link>
-            <ul class="dropdown-content px-3">
+              <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Balance Transfer</Link>
+                  <Link to="balance-trasnfer">Balance Transfer</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Balance Return Request</Link>
+                  <Link to="balance-return-request"> Balance Return Request</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Payment Request View
+                  <Link to="payment-request-view">Payment Request View
                   </Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Payment Request </Link>
+                  <Link to="payment-request">Payment Request </Link>
                 </li>
               </ul>
             </li>
             <li className='nav-item'><span className='nav-icon px-2'><FaUsers /></span><Link>Dispute <span className='px-2'><IoChevronDownSharp /></span></Link>
-            <ul class="dropdown-content px-3">
+              <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Pending Dispute</Link>
+                  <Link to='pending-dispute'>Pending Dispute</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Solve Dispute</Link>
+                  <Link to='solve-dispute'>Solve Dispute</Link>
                 </li>
               </ul>
             </li>
             <li className='nav-item'><span className='nav-icon px-2'><FaUsers /></span><Link>User Income  <span className='px-2'><IoChevronDownSharp /></span></Link>
-            <ul class="dropdown-content px-3">
+              <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Distributor Income</Link>
+                  <Link to='user-income/distributor'>Distributor Income</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Retailer Income</Link>
+                  <Link to='income/user-income/retailer'> Retailer Income</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>My Income
+                  <Link to='#'>My Income
                   </Link>
                 </li>
               </ul>
