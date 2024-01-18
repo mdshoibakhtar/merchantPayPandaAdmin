@@ -89,20 +89,20 @@ function Navigation() {
               <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Balance Transfer</Link>
+                  <Link to="balance-trasnfer">Balance Transfer</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Balance Return Request</Link>
+                  <Link to="balance-return-request"> Balance Return Request</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Payment Request View
+                  <Link to="payment-request-view">Payment Request View
                   </Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Payment Request </Link>
+                  <Link to="payment-request">Payment Request </Link>
                 </li>
               </ul>
             </li>
@@ -110,11 +110,11 @@ function Navigation() {
               <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Pending Dispute</Link>
+                  <Link to='pending-dispute'>Pending Dispute</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>Solve Dispute</Link>
+                  <Link to='solve-dispute'>Solve Dispute</Link>
                 </li>
               </ul>
             </li>
@@ -122,15 +122,15 @@ function Navigation() {
               <ul class="dropdown-content px-3">
                 <li className='menus-items'>
                   <span className='pe-2 '><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Distributor Income</Link>
+                  <Link to='user-income/distributor'>Distributor Income</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}> Retailer Income</Link>
+                  <Link to='income/user-income/retailer'> Retailer Income</Link>
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to={""}>My Income
+                  <Link to='#'>My Income
                   </Link>
                 </li>
               </ul>

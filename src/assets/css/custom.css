@@ -23,3 +23,16 @@
 .modle-dilogee .modal-dialog {
     width: 500px !important;
 }
+
+.tx-danger {
+    color: red;
+}
+
+.modal-footer-btn {
+    padding: 15px;
+}
+
+.me-2-2 {
+    margin-top: 6px;
+    margin-right: 10px;
+}
