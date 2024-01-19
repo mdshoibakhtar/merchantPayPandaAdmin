@@ -23,6 +23,8 @@ import SolveDisputePage from './pages/solveDispute';
 import DistributerIncomePage from './pages/distributerIncome';
 import RetailerIncomePage from './pages/retailerIncome';
 import MyIncomePage from './pages/myIncome';
+import DebitReportPage from './pages/debitReport';
+import CreditReportPage from './pages/creditReport';
 
 function App() {
   return (
@@ -50,7 +52,9 @@ function App() {
         <Route path="solve-dispute" element={<SolveDisputePage />} />
         <Route path="user-income/distributor" element={<DistributerIncomePage />} />
         <Route path="income/user-income/retailer" element={<RetailerIncomePage />} />
-        {/* <Route path="income/my-income" element={<MyIncomePage />} /> */}
+        <Route path="income/my-income" element={<MyIncomePage />} />
+        <Route path="debit-report" element={<DebitReportPage />} />
+        <Route path="credit-report" element={<CreditReportPage />} />
       </Routes>
       <Footer />
     </>

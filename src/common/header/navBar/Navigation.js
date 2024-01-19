@@ -75,11 +75,11 @@ function Navigation() {
                   <ul className='sub-dropdown-menus  px-3'>
                     <li className='menus-items'>
                       <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                      <Link to={""}> Debit Report </Link>
+                      <Link to={"/debit-report"}> Debit Report </Link>
                     </li>
                     <li className='menus-items'>
                       <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                      <Link to={""}> Credit Report </Link>
+                      <Link to={"/credit-report"}> Credit Report </Link>
                     </li>
                   </ul>
                 </li>
@@ -130,7 +130,7 @@ function Navigation() {
                 </li>
                 <li className='menus-items'>
                   <span className='pe-2'><MdOutlineKeyboardDoubleArrowRight /></span>
-                  <Link to='#'>My Income
+                  <Link to='income/my-income'>My Income
                   </Link>
                 </li>
               </ul>

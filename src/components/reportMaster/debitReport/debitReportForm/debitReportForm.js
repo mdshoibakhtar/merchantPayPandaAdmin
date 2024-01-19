@@ -1,11 +1,11 @@
-import { useState } from "react";
-import MyincomeModal from "./myIncomeModal/MyincomeModal";
+import React, { useState } from 'react'
+import DebitReportModal from '../debitReportModal/DebitReportModal';
 
-function MyIncomeForm() {
+function DebitReportForm() {
     const [modalShow, setModalShow] = useState(false);
     return (
         <>
-            <div className="col-lg-12 col-md-12">
+            <div className="col-lg-12 col-md-12 my-4">
                 <div className="card">
                     <div className="card-body">
                         <form action="" method="get">
@@ -25,7 +25,7 @@ function MyIncomeForm() {
 
                                 <div className="col-sm-4 mg-sm-t-25 mt-4">
                                     <button className="btn btn-primary pd-x-20 me-2-2" type="button" fdprocessedid="4y92n"><i className="fas fa-search" /> Search</button>
-                                    {/* <button className="btn btn-danger pd-x-20 me-2-2" type="button" data-toggle="modal" data-target="#transaction_download_model" fdprocessedid="ducors"onClick={() => setModalShow(true)}><i className="fas fa-download" /> Download</button> */}
+                                    <button className="btn btn-danger pd-x-20 me-2-2" type="button" onClick={() => setModalShow(true)}><i className="fas fa-download" /> Download</button>
                                 </div>
 
                             </div>
@@ -35,10 +35,11 @@ function MyIncomeForm() {
 
                     </div>
                 </div>
-                <MyincomeModal show={modalShow}
+                <DebitReportModal show={modalShow}
                     onHide={() => setModalShow(false)} />
             </div>
         </>
     )
 }
-export default MyIncomeForm
+
+export default DebitReportForm

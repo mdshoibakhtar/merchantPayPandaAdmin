@@ -1,4 +1,6 @@
-
+import { BsPlus } from "react-icons/bs";
+import { HiMinusSm } from "react-icons/hi";
+import "./MyIncomeList.css"
 function MyIncomeList() {
     return (
         <>
@@ -44,7 +46,6 @@ function MyIncomeList() {
                                                 <tr>
                                                     <th>User ID</th>
                                                     <th>Name</th>
-
                                                     <th>Opening Balance</th>
                                                     <th>Credit Amount</th>
                                                     <th>Debit Amount</th>
@@ -52,23 +53,22 @@ function MyIncomeList() {
                                                     <th>Profit</th>
                                                     <th>Charges</th>
                                                     <th>Pending</th>
-
-
+                                                    <th> Cl     Balance</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
 
+                                                <tr role="row" class="odd border-top border-bottom border-primary">
+                                                    <td>1044</td>
+                                                    <td class="sorting_1">Abdul kadir</td>
+                                                    <td>0</td>
+                                                    <td><span class="positive-value"><BsPlus/> 0.00</span></td>
+                                                    <td><span class="negative-value"><HiMinusSm/> 0.00</span></td>
+                                                    <td>0.00</td>
+                                                    <td><span class="positive-value"><BsPlus/> 0.00</span></td>
+                                                    <td><span class="negative-value">0.00</span></td>
+                                                    <td>0.00</td>
+                                                    <td>0</td>
                                                 </tr>
                                             </tbody>
                                         </table>
