@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 /* --------------react Icon Import  start------------------*/
@@ -9,10 +9,15 @@ import './TopHeader.css'
 /* --------------images Import  start------------------*/
 import logo from "../../../assets/logo/merchant.paypanda-logo.png"
 import profile from "../../../assets/logo/profile-pic.png"
+import ProfileQuerry from './toggleAside/TogleAside';
 /* --------------images Import  end------------------*/
 
 
 function TopHeader() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <section className='bg-linerGrd'>
             <Container>
@@ -38,14 +43,17 @@ function TopHeader() {
                             <div className='px-2'><span className='profile bg-light p-2 rounded-circle'>
                                 <img src={profile} alt='profile' width={20} />
                             </span></div>
-                            <div className='px-2'><span className='profile text-light'>
-                                <GiHamburgerMenu />
+                            <div className='px-2'><span className='profile text-light' >
+                                <GiHamburgerMenu onClick={handleShow} />
                             </span></div>
                         </div>
 
                     </div>
                 </div>
             </Container>
+            {['end'].map((placement, idx) => (
+                    <ProfileQuerry key={idx} placement={placement} name={placement} show={show} handleClose={handleClose} />
+                ))}
         </section>
     )
 }
